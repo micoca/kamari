@@ -1,0 +1,77 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.pages{
+    background-color: #0C0D0F;
+}
+
+header{
+    background-color: #0C0D0F;
+    padding: 16px 0;
+}
+header h1{
+    color: #221a6b;
+    font-size: 40px;
+    font-family: 'Bruno Ace', cursive;
+    font-weight: 2000;
+    font-style: italic;
+    display: inline-block;
+    position: static;
+    bottom: 35px;
+    margin-left: 10px;
+}
+nav{
+    background-color: #181838;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    flex-grow: 1;
+}
+nav ul li a{
+    color: rgb(196, 179, 238);
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color: 0,0,0,0,3;
+}
+footer{
+    background-color: #181838;
+    clear: both;
+    color: rgb(196, 179, 238); 
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+nav ul li a.activo{
+    background-color: rgb(17, 18, 41);
+}
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+} 
+
+.texto h3{
+    font-family: 'Bruno Ace' , cursive; 
+    color: #7632c1;
+}
+.texto h5{
+    font-family: 'Bruno Ace' , cursive; 
+    color: rgb(196, 179, 238);
+}
+.texto p{
+    color: rgb(196, 179, 238);
+}
